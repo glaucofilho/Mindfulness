@@ -16,6 +16,8 @@ card.addEventListener('click', () => {
 
     // Aplicar estilos ao texto dentro da carta
     cardText.style.color = 'white'; // Definir a cor do texto como branca
+    cardText.style.fontSize = '40px'; // Tamanho da fonte
+    cardText.style.fontFamily = 'cursive, sans-serif'; // Tipo de fonte
     cardText.textContent = cartaSelecionada;
 });
 

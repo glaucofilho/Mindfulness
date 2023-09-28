@@ -39,4 +39,6 @@ body {
 .instruction {
     margin-top: 10px;
     font-size: 18px;
+    color: black;
+    font-family: cursive, sans-serif
 }
