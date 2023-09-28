@@ -13,6 +13,10 @@ const cartas = [
 card.addEventListener('click', () => {
     const randomIndex = Math.floor(Math.random() * cartas.length);
     cardText.textContent = cartas[randomIndex];
+
+    // Aplicar estilos ao texto dentro da carta
+    cardText.style.color = 'white'; // Definir a cor do texto como branca
+    cardText.textContent = cartaSelecionada;
 });
 
 // Registra a PWA
