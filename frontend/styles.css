@@ -17,6 +17,15 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    /* Defina a largura e altura da carta como desejado */
+    width: 400px;
+    /* Largura da carta */
+    height: 600px;
+    /* Altura da carta */
+
+    max-width: 600px;
+    /* Limite máximo de largura */
 }
 
 #generate-button {
