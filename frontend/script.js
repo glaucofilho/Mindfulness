@@ -1,5 +1,6 @@
 const cardText = document.getElementById('card-text');
-const generateButton = document.getElementById('generate-button');
+const card = document.getElementById('card'); // Alteramos para buscar a div da carta com o ID "card"
+const instruction = document.querySelector('.instruction'); // Selecionamos a div da instrução
 
 const cartas = [
     "Reserve um tempo para não fazer absolutamente nada. Foque a atenção nisso.",
@@ -9,7 +10,7 @@ const cartas = [
     "Seja grato pelas pequenas coisas da vida."
 ];
 
-generateButton.addEventListener('click', () => {
+card.addEventListener('click', () => {
     const randomIndex = Math.floor(Math.random() * cartas.length);
     cardText.textContent = cartas[randomIndex];
 });
